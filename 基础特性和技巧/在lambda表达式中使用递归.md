@@ -4,7 +4,7 @@
 ```c++
 int main() 
 {
-	auto fib = [&](auto &fib, int n) -> int {
+	auto fib = [&](auto &&fib, int n) -> int {
 		if (n <= 1) return n;
 		return fib(fib, n - 1) + fib(fib, n - 2);
 	};
