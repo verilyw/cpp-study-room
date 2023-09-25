@@ -15,7 +15,7 @@
 
 数据包是通过多层封装在Internet上传输的。
 
-![avatar](https://github.com/YukunJ/Teach-Myself-CPP/raw/main/Socket-Programming/pics/data_encapsulation.png)
+![Alt text](./pics/image.png)
 
 理论上，有一个七层的OSI网络模型，但有一个更相关的是这样的：
 
